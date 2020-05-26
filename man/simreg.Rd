@@ -30,7 +30,7 @@ the predictors of interest.}
 
 \item{permute}{logical.Should sampling with replacement.}
 
-\item{n.monterCarlo}{the numbers of permutation.}
+\item{n.monterCarlo}{the number of permutation replicates.}
 
 \item{seed}{the seed for permutation.}
 }

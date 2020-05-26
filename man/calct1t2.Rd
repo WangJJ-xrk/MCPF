@@ -18,7 +18,7 @@ calct1t2(Y, kcut, H1, H2)
 matirx.}
 }
 \value{
-a pseudo F statistic matrix.
+a $kcut \times 2$ matrix of pseudo F statistics.
 }
 \description{
 \code{calct1t2} calculates the pseudo F statistics of the divided similarity matrixes

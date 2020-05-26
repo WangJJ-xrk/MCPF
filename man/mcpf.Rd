@@ -19,7 +19,7 @@ the covariate matrix to be adjusted for.}
 \item{x.mat}{a predictor matrix which contains the covariates and
 the predictors of interest.}
 
-\item{n.monterCarlo}{the numbers of permutation.}
+\item{n.monterCarlo}{the number of permutation replicates.}
 }
 \value{
 the p value of MCPF

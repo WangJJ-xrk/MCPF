@@ -1,6 +1,6 @@
 #' Similarity Matrix Calculation.
 #'
-#' \code{calcKerMat_Cen} calculates centered similarity matrix for a data
+#' \code{calcKerMat_Cen} calculates a centered similarity matrix for a data
 #' matrix.
 #'
 #' @param X the data matrix, each row represents an observation.

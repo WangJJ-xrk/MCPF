@@ -10,7 +10,7 @@
 #' @param H2 the difference between the identity matirx and a projection
 #'  matirx.
 #'
-#' @return a pseudo F statistic matrix.
+#' @return a $kcut \times 2$ matrix of pseudo F statistics.
 
 calct1t2 <- function(Y, kcut, H1, H2){
 
@@ -47,7 +47,7 @@ calct1t2 <- function(Y, kcut, H1, H2){
 #'  the covariate matrix to be adjusted for.
 #' @param x.mat a predictor matrix which contains the covariates and
 #'  the predictors of interest.
-#' @param n.monterCarlo the numbers of permutation.
+#' @param n.monterCarlo the number of permutation replicates.
 #'
 #' @return the p value of MCPF
 #'

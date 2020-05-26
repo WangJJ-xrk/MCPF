@@ -13,7 +13,7 @@
 #' @param x.mat a predictor matrix which contains the covariates and
 #'  the predictors of interest.
 #' @param permute logical.Should sampling with replacement.
-#' @param n.monterCarlo the numbers of permutation.
+#' @param n.monterCarlo the number of permutation replicates.
 #' @param seed the seed for permutation.
 #'
 #' @return the p value of pseudo F test statistic.

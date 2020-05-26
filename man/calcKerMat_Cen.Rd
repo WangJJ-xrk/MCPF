@@ -13,7 +13,7 @@ calcKerMat_Cen(X)
 the centered similarity matrix.
 }
 \description{
-\code{calcKerMat_Cen} calculates centered similarity matrix for a data
+\code{calcKerMat_Cen} calculates a centered similarity matrix for a data
 matrix.
 }
 \examples{
