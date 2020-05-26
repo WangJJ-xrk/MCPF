@@ -4,13 +4,12 @@
 \alias{calct1t2}
 \title{Calculation of Pseudo F Statistic Matrix.}
 \usage{
-calct1t2(Y, kcut, H1, H2)
+calct1t2(Y, point.seq, H1, H2)
 }
 \arguments{
 \item{Y}{the projection of pseudo outcome data.}
 
-\item{kcut}{a number which indicates that the dividing points are
-1:kcut.}
+\item{point.seq}{a vector containing the dividing points.}
 
 \item{H1}{the difference between two projection matrixes.}
 
@@ -18,7 +17,7 @@ calct1t2(Y, kcut, H1, H2)
 matirx.}
 }
 \value{
-a kcut*2 matrix of pseudo F statistics.
+a length(point.seq)*2 matrix of pseudo F statistics.
 }
 \description{
 \code{calct1t2} calculates the pseudo F statistics of the divided similarity matrixes
