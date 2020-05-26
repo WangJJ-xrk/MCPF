@@ -10,9 +10,11 @@ The package MCPF contains two functions for the p-value calculation in the dista
 ## Installation
 The R package MCPF can be installed through the following R code.
 
+```
 > install.packages("devtools")
 > library(devtools)
 > install_github("WangJJ-xrk/MCPF")
+```
 
 ## Example
 1. Calculate a centered similarity matrix for a data matrix
