@@ -41,7 +41,7 @@ calct1t2 <- function(Y, point.seq, H1, H2){
 
 #' Generate Fibonacci Sequence to be Used as Dividing Points
 #'
-#' \code{Fabonacci} generates a Fibonacci sequence to be used as dividing
+#' \code{Fibonacci} generates a Fibonacci sequence to be used as dividing
 #'  points in MCPF. So it deletes the first element 1 in the original
 #'  Fibonacci sequence.
 #'
