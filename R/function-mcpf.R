@@ -10,7 +10,7 @@
 #' @param H2 the difference between the identity matirx and a projection
 #'  matirx.
 #'
-#' @return a $kcut \times 2$ matrix of pseudo F statistics.
+#' @return a kcut*2 matrix of pseudo F statistics.
 
 calct1t2 <- function(Y, kcut, H1, H2){
 
