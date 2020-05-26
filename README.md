@@ -19,6 +19,7 @@ The R package MCPF can be installed through the following R code.
 ## Example
 1. Calculate a centered similarity matrix for a data matrix
 
+```
 > library(MASS)
 > n = 50
 > p = 100
@@ -26,9 +27,11 @@ The R package MCPF can be installed through the following R code.
 > sigmax = diag(rep(0.5,k)) + matrix(0.5,k,k)
 > x = mvrnorm(n, rep(0,k), sigmax)
 > Kx = calcKerMat_Cen(x)
+```
 
 2. Apply the PF statistic to the association analysis in the distance-based regression model
 
+```
 > library(MASS)
 > n = 50
 > p = 100
@@ -46,9 +49,11 @@ The R package MCPF can be installed through the following R code.
 > y = x%*%beta0 + mvrnorm(n, rep(0,p), sigmay)
 > Ky = calcKerMat_Cen(y)
 > simreg(Ky,null.space = 1:5,x.mat = x)
+```
 
 3. Apply the MCPF statistic to the association analysis in the distance-based regression model
 
+```
 > library(MASS)
 > n = 50
 > p = 100
@@ -66,3 +71,4 @@ The R package MCPF can be installed through the following R code.
 > y = x%*%beta0 + mvrnorm(n, rep(0,p), sigmay)
 > Ky = calcKerMat_Cen(y)
 > mcpf(Ky,null.space = 1:5,x.mat = x)
+```
