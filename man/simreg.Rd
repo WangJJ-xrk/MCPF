@@ -2,7 +2,7 @@
 % Please edit documentation in R/simreg.R
 \name{simreg}
 \alias{simreg}
-\title{Significance Calculation of the Pseudo F Statistic in Distance
+\title{Significance Calculation of the Pseudo F Statistic in Distance-based
 Regression Model.}
 \usage{
 simreg(

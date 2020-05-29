@@ -1,6 +1,7 @@
 Package: MCPF
 Type: Package
-Title: A Package for the Significance Calculation of PF and MCPF
+Title: A Package for the Significance Calculation of PF and MCPF in the Distance-based
+    Regression Model
 Version: 0.1.0
 Author: Wang Jinjuan, Li Qizhai
 Maintainer: Wang Jinjuan <wangjinjuan@amss.ac.cn>

@@ -1,4 +1,4 @@
-#' Significance Calculation of the Pseudo F Statistic in Distance
+#' Significance Calculation of the Pseudo F Statistic in Distance-based
 #' Regression Model.
 #'
 #' \code{simreg} calculates the p value of the pseudo F statistic in distance
