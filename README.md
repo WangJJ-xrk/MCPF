@@ -70,5 +70,5 @@ The R package MCPF can be installed through the following R code.
 > x = mvrnorm(n, rep(0,k), sigmax)
 > y = x%*%beta0 + mvrnorm(n, rep(0,p), sigmay)
 > Ky = calcKerMat_Cen(y)
-> mcpf(Ky,null.space = 1:5,x.mat = x)
+> mcpf(Ky,null.space = 1:5,x.mat = x,rMethod = "interpolation")
 ```
